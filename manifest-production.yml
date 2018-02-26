@@ -4,4 +4,6 @@ applications:
   host: sb-pal-tracker
   services:
   - tracker-database
+env:
+  SECURITY_FORCE_HTTPS: true
 
